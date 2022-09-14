@@ -18,9 +18,9 @@ DNS サーバまたは Active Directory ドメインを変更した場合、ク�
 
 .手順
 . 作業環境を開きます。
-. をクリックします image:screenshot_gallery_options.gif[""] ボタンをクリックし、 * Active Directory の管理 * をクリックします。
+. をクリックします image:screenshot_gallery_options.gif["3つの点を持つアイコン"] ボタンをクリックし、 * Active Directory の管理 * をクリックします。
 +
-Active Directory が設定されていない場合は、ここで追加できます。設定済みの場合は、を使用して設定を変更または削除できます image:screenshot_gallery_options.gif[""] ボタンを押します。
+Active Directory が設定されていない場合は、ここで追加できます。設定済みの場合は、を使用して設定を変更または削除できます image:screenshot_gallery_options.gif["3つの点を持つアイコン"] ボタンを押します。
 
 . SMB サーバの設定を指定します。
 +

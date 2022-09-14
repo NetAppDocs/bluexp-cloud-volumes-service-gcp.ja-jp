@@ -235,7 +235,6 @@
   <block id="8f6f9937d2a2acb76e352fb5e9dfff19" category="summary">Cloud Volumes Service for Google Cloud サブスクリプションと既存のすべてのボリュームを Cloud Manager から削除することができます。ボリュームは削除されず、 Cloud Manager インターフェイスから削除されます。</block>
   <block id="ea4e50481c541cefaed626458af5901f" category="doc">Cloud Volumes Service を Cloud Manager から削除</block>
   <block id="b2639f031018ddb46e5517acac1b12ef" category="admonition">Cloud Manager から Cloud Volumes Service for Google Cloud サブスクリプションを削除することはできません。これは、 Google Cloud Console からのみ実行できます。</block>
-  <block id="c723db2b353490931b5febeb5b3ec637" category="list-text">をクリックします <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> ボタンをクリックし、「 Cloud Volumes Service の削除」をクリックします。</block>
   <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">確認ダイアログボックスで、 * 削除 * をクリックします。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9 に関する注意事項</block>
@@ -270,14 +269,11 @@
   <block id="c164c685163f0ac5277f4c117b8c9c2c" category="doc">Cloud Volumes Service for Google Cloud のドキュメント</block>
   <block id="07412ee3cf29f80fadf8fe52f687e709" category="summary">DNS サーバまたは Active Directory ドメインを変更した場合、クライアントに引き続きストレージを提供できるように、 Cloud Volumes Service で SMB サーバを変更する必要があります。</block>
   <block id="cfc8683315c11129a14f7b806a6f699c" category="doc">Active Directory の設定を管理します</block>
-  <block id="69911db82cd6ce5dc7c63d1b33420f3b" category="list-text">をクリックします <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> ボタンをクリックし、 * Active Directory の管理 * をクリックします。</block>
-  <block id="6009cb4ef9aecc48bb7af9c3b4fb92ad" category="paragraph">Active Directory が設定されていない場合は、ここで追加できます。設定済みの場合は、を使用して設定を変更または削除できます <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> ボタンを押します。</block>
   <block id="fd1f3b127eeb96862e4cde53a7ee6267" category="list-text">SMB サーバの設定を指定します。</block>
   <block id="c1ca298a9a9c76ca22ecf23ccaca6448" category="cell">SMB サーバの名前解決を提供する DNS サーバの IP アドレス。複数のサーバを参照する場合は、カンマを使用して IP アドレスを区切ります。たとえば、 172.31.25.223 、 172.31.2.74 のようになります。</block>
   <block id="4bc62575e91aa40d329c1383c7a4fc46" category="list-text">[ 保存（ Save ） ] をクリックして、設定を保存します。</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、事前に Cloud Manager にネットアップサポートサイトのアカウントを追加し、サポートに登録しておく必要があります。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
   <block id="bf5d97d0f930d16c4814a56d0ffddf42" category="sidebar">Cloud Volumes Service for Google Cloud のドキュメント</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
@@ -346,4 +342,9 @@
   <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">[ * お問い合わせ * ] をクリックして、ネットアップ・テクニカル・サポートの電話番号を検索してください。</block>
   <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">[ * 問題 を開く * ] をクリックし、いずれかのオプションを選択して、 [ * 送信 * ] をクリックします。</block>
   <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">ネットアップの担当者がケースを確認し、すぐに対応を開始します。</block>
+  <block id="f53392d049b9dddff4ba55ad74c96588" category="inline-image-macro">3つの点を持つアイコン</block>
+  <block id="4a6bf9c3f62fb119f3187ec42ecd340d" category="list-text">をクリックします <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> ボタンをクリックし、 * Active Directory の管理 * をクリックします。</block>
+  <block id="b161c15ae834886d4dbb8c09b3bad848" category="paragraph">Active Directory が設定されていない場合は、ここで追加できます。設定済みの場合は、を使用して設定を変更または削除できます <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> ボタンを押します。</block>
+  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">3つの点を持つアイコン。</block>
+  <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">をクリックします <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> ボタンをクリックし、「 Cloud Volumes Service の削除」をクリックします。</block>
 </blocks>

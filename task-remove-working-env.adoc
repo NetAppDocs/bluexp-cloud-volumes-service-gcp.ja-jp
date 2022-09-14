@@ -21,6 +21,6 @@ TIP: Cloud Manager から Cloud Volumes Service for Google Cloud サブスクリ
 
 .手順
 . 作業環境を開きます。
-. をクリックします image:screenshot_gallery_options.gif[""] ボタンをクリックし、「 Cloud Volumes Service の削除」をクリックします。
+. をクリックします image:screenshot_gallery_options.gif["3つの点を持つアイコン。"] ボタンをクリックし、「 Cloud Volumes Service の削除」をクリックします。
 . 確認ダイアログボックスで、 * 削除 * をクリックします。
 
