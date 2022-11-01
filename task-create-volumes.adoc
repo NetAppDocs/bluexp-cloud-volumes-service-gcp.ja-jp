@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-volumes.html 
 keywords: cloud volumes service for gcp, google cloud, cloud volumes, create cloud volumes, mount volume 
-summary: Cloud Manager では、 Cloud Volumes Service for Google Cloud サブスクリプションに基づいてクラウドボリュームを作成できます。ボリュームを作成したら、クライアントにボリュームをマウントできるように、関連するマウントコマンドを取得します。 
+summary: BlueXPを使用すると、Cloud Volumes Service for Google Cloudサブスクリプションに基づいてCloud Volume を作成できます。ボリュームを作成したら、クライアントにボリュームをマウントできるように、関連するマウントコマンドを取得します。 
 ---
 = ボリュームを作成してマウント
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager では、 Cloud Volumes Service for Google Cloud サブ�
 
 
 [role="lead"]
-Cloud Manager では、 Cloud Volumes Service for Google Cloud サブスクリプションに基づいてクラウドボリュームを作成できます。ボリュームを作成したら、クライアントにボリュームをマウントできるように、関連するマウントコマンドを取得します。
+BlueXPを使用すると、Cloud Volumes Service for Google Cloudサブスクリプションに基づいてCloud Volume を作成できます。ボリュームを作成したら、クライアントにボリュームをマウントできるように、関連するマウントコマンドを取得します。
 
 
 
@@ -118,7 +118,7 @@ image:screenshot_cvs_smb_details.png["SMB Cloud Volumes Service ボリューム�
 
 == クラウドボリュームをマウント
 
-Cloud Manager でのマウント手順を参照して、ホストにボリュームをマウントできるようにします。
+ボリュームをホストにマウントできるように、BlueXPからマウント手順にアクセスします。
 
 
 NOTE: クライアントでサポートされているハイライトされたプロトコル / ダイアレクトを使用します。

@@ -17,19 +17,19 @@ summary: これらの手順を実行するか、リンク先を参照して詳�
 これらの手順を実行するか、リンク先を参照して詳細を確認してください。
 
 [role="quick-margin-para"]
-Google で、 Cloud Volumes Service for GCP API を有効にして、 Cloud Manager がサブスクリプションとクラウドボリュームを管理できるようにします。
+Googleで、Cloud Volumes Service for GCP APIを有効にして、BlueXPでサブスクリプションとCloud Volume を管理できるようにします。
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html["API を有効にする方法について説明します"]。
 
 [role="quick-margin-para"]
-Google で、サービスアカウントとロールを作成して、 Cloud Manager から Cloud Volumes Service for Google Cloud アカウントにアクセスできるようにします。
+Googleで、サービスアカウントと役割を作成して、BlueXPがCloud Volumes Service for Google Cloudアカウントにアクセスできるようにします。
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html#set-up-a-service-account["サービスアカウントの設定方法について説明します"]。
 
 [role="quick-margin-para"]
-Cloud Manager で、 * 作業環境の追加 * > * Google Cloud * > * Cloud Volumes Service * をクリックし、サービスアカウントと Google Cloud プロジェクトの詳細を指定します。
+BlueXPでは、[*作業環境の追加*>*Google Cloud Cloud Volumes Service *]をクリックし、サービスアカウントとGoogle Cloudプロジェクトの詳細を入力します。
 
 [role="quick-margin-para"]
 link:task-create-working-env.html["作業環境の作成方法について説明します"]。

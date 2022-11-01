@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes' 
-summary: Cloud Manager の Cloud Volumes Service for Google Cloud の新機能について説明します。 
+summary: BlueXPのCloud Volumes Service for Google Cloudの新機能について説明します。 
 ---
 = 新機能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager の Cloud Volumes Service for Google Cloud の新機能�
 
 
 [role="lead"]
-Cloud Manager の Cloud Volumes Service for Google Cloud の新機能について説明します。
+BlueXPのCloud Volumes Service for Google Cloudの新機能について説明します。
 
 
 
@@ -24,7 +24,7 @@ Cloud Manager の Cloud Volumes Service for Google Cloud の新機能につい�
 
 === Cloud Volumes Service for Google Cloud のサポート
 
-Cloud Volumes Service for Google Cloud を Cloud Manager から直接管理できるようになりました。
+Cloud Volumes Service for Google CloudをBlueXPから直接管理できるようになりました。
 
 * 作業環境をセットアップして作成
 * Linux クライアントおよび UNIX クライアント用に、 NFSv3 ボリュームと NFSv4.1 ボリュームを作成および管理します

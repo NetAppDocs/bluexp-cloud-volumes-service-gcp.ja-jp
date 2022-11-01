@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-google-cloud.html 
 keywords: setup, set up, api, service account, requirements, permissions 
-summary: Cloud Manager は、 Cloud Volumes Service API にアクセスする必要があり、 Google Cloud サービスアカウントから適切な権限を取得する必要があります。 
+summary: BlueXPでは、Google Cloudサービスアカウントを使用してCloud Volumes Service APIにアクセスし、適切な権限を付与する必要があります。 
 ---
 = Google Cloud をセットアップします
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager は、 Cloud Volumes Service API にアクセスする必
 
 
 [role="lead"]
-Cloud Manager は、 Cloud Volumes Service API にアクセスする必要があり、 Google Cloud サービスアカウントから適切な権限を取得する必要があります。
+BlueXPでは、Google Cloudサービスアカウントを使用してCloud Volumes Service APIにアクセスし、適切な権限を付与する必要があります。
 
 
 
@@ -28,7 +28,7 @@ Google Cloud Shell で、次のコマンドを実行して Cloud Volumes Service
 
 == サービスアカウントを設定します
 
-Cloud Manager が Google Cloud プロジェクトにアクセスできるようにするには、次のタスクを実行します。
+BlueXPがGoogle Cloudプロジェクトにアクセスできるように、次のタスクを実行します。
 
 * 新しいサービスアカウントを作成します
 * 新しいサービスアカウントメンバーをプロジェクトおよびに追加します IT 固有のロール（権限）の割り当て

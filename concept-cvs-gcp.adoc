@@ -31,9 +31,9 @@ NetApp Cloud Volumes Service for Google Cloud を使用すると、マルチプ�
 
 == コスト
 
-Cloud Volumes Service for Google Cloud で作成されたボリュームには、 Cloud Manager ではなくサービスへのサブスクリプションが課金されます。
+Cloud Volumes Service for Google Cloudで作成されたボリュームには、BlueXP（旧Cloud Manager）ではなく、サービスへのサブスクリプションが課金されます。
 
-Cloud Volumes Service for Google Cloud のリージョンまたはボリュームを Cloud Manager から検出する場合、料金は発生しません。
+Cloud Volumes Service for Google CloudのリージョンまたはボリュームをBlueXPから検出する場合、料金は発生しません。
 
 link:https://console.cloud.google.com/marketplace/product/endpoints/cloudvolumesgcp-api.netapp.com?q=cloud%20volumes%20service["Google Cloud Marketplace で価格を確認"^]
 
@@ -47,13 +47,13 @@ https://cloud.netapp.com/cloud-volumes-global-regions#cvsGc["サポートされ�
 
 == 始める前に
 
-Cloud Manager では、既存の Cloud Volumes Service for GCP サブスクリプションとボリュームを検出できます。を参照してください https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud のドキュメント"^] 月額プランをまだ設定していない場合は、
+BlueXPでは、既存のCloud Volumes Service for GCPサブスクリプションとボリュームを検出できます。を参照してください https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud のドキュメント"^] 月額プランをまだ設定していない場合は、
 
 
 
 == サポートを受ける
 
-Cloud Manager の Cloud Volumes Service 処理に関する一般的な質問については、 Cloud Manager のチャットを使用してください。
+BlueXPでのCloud Volumes Service の動作に関する一般的な質問は'BlueXPチャットを使用してください
 
 Cloud Volumes Service for Google Cloud に関する一般的な質問については、ネットアップの Google Cloud チームに gcinfo@netapp.com まで E メールでお問い合わせください。
 
@@ -63,6 +63,6 @@ Cloud Volumes Service for Google Cloud に関する一般的な質問につい�
 
 == 関連リンク
 
-* https://cloud.netapp.com/cloud-volumes-service-for-gcp["NetApp Cloud Central ： Cloud Volumes Service for Google Cloud"^]
+* https://cloud.netapp.com/cloud-volumes-service-for-gcp["ネットアップのBlueXP：『Cloud Volumes Service for Google Cloud』"^]
 * https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud のドキュメント"^]
 
