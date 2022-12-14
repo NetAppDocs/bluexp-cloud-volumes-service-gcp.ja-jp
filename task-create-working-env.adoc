@@ -23,6 +23,7 @@ Google Cloud Console からボリュームを作成済みかどうかに関係�
 
 TIP: 複数の Google Cloud プロジェクトにサブスクリプションとボリュームがある場合は、プロジェクトごとにこのタスクを実行する必要があります。
 
+.作業を開始する前に
 各プロジェクトのサブスクリプションを追加する際は、次の情報を確認しておく必要があります。
 
 * サービスアカウントのクレデンシャル（ダウンロードした JSON 秘密鍵）
@@ -48,6 +49,7 @@ image:screenshot_add_cvs_gcp_credentials.png["Cloud Volumes Service for GCP サ�
 
 
 
+.結果
 Cloud Volumes Service for Google Cloudの作業環境がBlueXPに表示されます。
 
 image:screenshot_cvs_gcp_cloud.png["Cloud Volumes Service for Google Cloud 作業環境のスクリーンショット。"]
@@ -56,4 +58,5 @@ image:screenshot_cvs_gcp_cloud.png["Cloud Volumes Service for Google Cloud 作�
 
 このサブスクリプションにクラウドボリュームが存在しない場合は、ここで作成します。
 
+.次の手順
 link:task-create-volumes.html["ボリュームの作成を開始します"]。

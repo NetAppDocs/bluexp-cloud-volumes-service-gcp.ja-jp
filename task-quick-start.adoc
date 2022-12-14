@@ -16,18 +16,21 @@ summary: これらの手順を実行するか、リンク先を参照して詳�
 [role="lead"]
 これらの手順を実行するか、リンク先を参照して詳細を確認してください。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] Cloud Volumes Service API を有効にします
 [role="quick-margin-para"]
 Googleで、Cloud Volumes Service for GCP APIを有効にして、BlueXPでサブスクリプションとCloud Volume を管理できるようにします。
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html["API を有効にする方法について説明します"]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] GCP サービスアカウントを作成し、クレデンシャルをダウンロードします
 [role="quick-margin-para"]
 Googleで、サービスアカウントと役割を作成して、BlueXPがCloud Volumes Service for Google Cloudアカウントにアクセスできるようにします。
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html#set-up-a-service-account["サービスアカウントの設定方法について説明します"]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] GCP 向け Cloud Volumes Service 作業環境を作成します
 [role="quick-margin-para"]
 BlueXPでは、[*作業環境の追加*>*Google Cloud Cloud Volumes Service *]をクリックし、サービスアカウントとGoogle Cloudプロジェクトの詳細を入力します。
 
