@@ -31,11 +31,9 @@ TIP: 複数の Google Cloud プロジェクトにサブスクリプションと�
 
 
 .手順
-. BlueXPで、新しい作業環境を追加し、場所*Google Cloud*を選択して、[*続行*]をクリックします。
-. 「 * Cloud Volumes Service * 」を選択し、「 * Continue * 」をクリックします。
-+
-image:screenshot_add_cvs_gcp_working_env.png["Cloud Volumes Service for GCP サブスクリプションの作業環境を追加するスクリーンショット。"]
-
+. BlueXPのナビゲーションメニューで、*[ストレージ]>[キャンバス]*を選択します。
+. [Canvas]ページで、*[Add Working Environment]*をクリックし、*[Google Cloud Platform]*を選択します。
+. Cloud Volumes Service の横にある* Discover *を選択します。
 . Cloud Volumes Service サブスクリプションに関する情報を入力します。
 +
 .. 使用する作業環境名を入力します。
