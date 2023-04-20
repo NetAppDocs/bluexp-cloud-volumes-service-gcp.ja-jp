@@ -31,7 +31,7 @@ NetApp Cloud Volumes Service for Google Cloud を使用すると、マルチプ�
 
 == コスト
 
-Cloud Volumes Service for Google Cloudで作成されたボリュームには、BlueXP（旧Cloud Manager）ではなく、サービスへのサブスクリプションが課金されます。
+Cloud Volumes Service for Google Cloudで作成されたボリュームは、BlueXPではなく、お客様のサブスクリプションに課金されます。
 
 Cloud Volumes Service for Google CloudのリージョンまたはボリュームをBlueXPから検出する場合、料金は発生しません。
 
