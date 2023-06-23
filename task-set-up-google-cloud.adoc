@@ -46,7 +46,10 @@ Cloud Console は、この名前に基づいてサービスアカウント ID �
 . 今すぐアクセスコントロールを設定するには、ページの下部にある「 * 作成 * 」、「完了 * 」の順にクリックして、次の手順に進みます。
 . _iam ページの _Click * Add * をクリックし、 _ Add Members_page のフィールドに入力します。
 +
-.. [ 新しいメンバー ] フィールドに、 user1-service-account-cvs@project1.iam.gserviceaccount.com などの完全なサービスアカウント ID を入力します。
+.. [New Members]フィールドに、フルサービスアカウントIDを入力します。
++
+たとえば、\user1-service-account-cvs@project1.iam.gserviceaccount.comと入力します
+
 .. 追加するロールは次のとおりです。
 +
 *** NetApp Cloud Volumes Admin _
