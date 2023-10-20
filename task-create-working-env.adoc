@@ -16,9 +16,9 @@ summary: BlueXPでCloud Volumes Service for Google Cloud作業環境を作成し
 [role="lead"]
 BlueXPでCloud Volumes Service for Google Cloud作業環境を作成して、ボリュームとスナップショットを作成および管理できるようにします。
 
-Google Cloud Console からボリュームを作成済みかどうかに関係なく、 Cloud Volumes Service for Google Cloud にサインアップしてまだボリュームを持っていない場合は、最初に GCP サブスクリプションに基づいてボリュームの作業環境を作成します。
+ボリュームをGoogle Cloudコンソールから作成しているかどうかに関係なく、Cloud Volumes Service for Google Cloudに登録したばかりでボリュームがない場合は、まずGoogle Cloudサブスクリプションに基づいてボリュームの作業環境を作成します。
 
-このサブスクリプション用のクラウドボリュームがすでに存在する場合、ボリュームは新しい作業環境に表示されます。GCP サブスクリプションにまだクラウドボリュームを追加していない場合は、新しい作業環境を作成した後で追加します。
+このサブスクリプション用のクラウドボリュームがすでに存在する場合、ボリュームは新しい作業環境に表示されます。Google Cloudサブスクリプション用のクラウドボリュームをまだ追加していない場合は、新しい作業環境の作成後に追加します。
 
 
 TIP: 複数の Google Cloud プロジェクトにサブスクリプションとボリュームがある場合は、プロジェクトごとにこのタスクを実行する必要があります。
@@ -41,7 +41,7 @@ TIP: 複数の Google Cloud プロジェクトにサブスクリプションと�
 .. Google Cloud プロジェクトの名前を選択します。
 .. [* Continue （続行） ] をクリックします
 +
-image:screenshot_add_cvs_gcp_credentials.png["Cloud Volumes Service for GCP サブスクリプションのクレデンシャルを追加するスクリーンショット。"]
+image:screenshot_add_cvs_gcp_credentials.png["Cloud Volumes Service for Google Cloudサブスクリプションのクレデンシャルを追加するスクリーンショット。"]
 
 
 

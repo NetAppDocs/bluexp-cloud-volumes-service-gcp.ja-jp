@@ -18,15 +18,24 @@ BlueXPでは、Google Cloudサービスアカウントを使用してCloud Volum
 
 
 
-== Cloud Volumes Service API を有効にします
+== 手順1：Cloud Volumes Service APIを有効にする
 
-Google Cloud Shell で、次のコマンドを実行して Cloud Volumes Service API を有効にします。
+Cloud Volumes Service APIを有効にして、サブスクリプションボリュームとクラウドボリュームをBlueXPで管理できるようにします。
 
+.手順
+. Google CloudからCloud Shellセッションを起動します。
++
+https://cloud.google.com/shell/docs/launching-cloud-shell["Google Cloudのドキュメント：「Launch Cloud Shell」"^]
+
+. 次のコマンドを実行して、Cloud Volumes Service APIを有効にします。
++
 `gcloud --project=<my-cvs-project> サービスは cloudvolumesgcp-api.netapp.com` を有効にします
 
 
 
-== サービスアカウントを設定します
+
+
+== 手順2：サービスアカウントを設定する
 
 BlueXPがGoogle Cloudプロジェクトにアクセスできるように、次のタスクを実行します。
 

@@ -47,7 +47,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions#cvsGc["サポートされ�
 
 == 始める前に
 
-BlueXPでは、既存のCloud Volumes Service for GCPサブスクリプションとボリュームを検出できます。を参照してください https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud のドキュメント"^] 月額プランをまだ設定していない場合は、
+BlueXPでは、Cloud Volumes Service for Google Cloudの既存のサブスクリプションとボリュームを検出できます。を参照してください https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud のドキュメント"^] 月額プランをまだ設定していない場合は、
 
 
 

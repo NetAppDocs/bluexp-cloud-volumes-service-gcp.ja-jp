@@ -14,12 +14,14 @@ sidebar:
   - title: Cloud Volumes Service for Google Cloud のドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
   - title: はじめに
     entries:
     - title: Cloud Volumes Service for Google Cloud の詳細をご覧ください
       url: "/concept-cvs-gcp.html"
-    - title: クイックスタート
+    - title: スタートアップワークフロー
       url: "/task-quick-start.html"
     - title: Google Cloud をセットアップします
       url: "/task-set-up-google-cloud.html"

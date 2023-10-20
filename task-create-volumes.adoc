@@ -23,7 +23,7 @@ BlueXPを使用すると、Cloud Volumes Service for Google Cloudサブスクリ
 Cloud Volumes Service または SMB ボリュームは、新規または既存の Google Cloud アカウントで作成できます。現在、クラウドボリュームは、 Linux クライアントと UNIX クライアントでは NFSv3 と NFSv4.1 、 Windows クライアントでは SMB 3.x をサポートしています。
 
 .作業を開始する前に
-* GCP で SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。
+* Google CloudでSMBを使用する場合は、DNSとActive Directoryをセットアップしておく必要があります。
 * SMB ボリュームを作成する場合は、接続可能な Windows Active Directory サーバが必要です。この情報は、ボリュームの作成時に入力します。また、管理者ユーザが指定された Organizational Unit （ OU ；組織単位）パスでマシンアカウントを作成できることを確認してください。
 
 
@@ -151,6 +151,6 @@ image:screenshot_cvs_aws_smb_mount.png["SMB ボリュームのマウント手順
 
 . インスタンスのマウント手順に従って、ネットワークドライブをマッピングします。
 +
-マウント手順の手順を完了すると、クラウドボリュームが GCP インスタンスに正常にマウントされます。
+マウント手順の手順を完了すると、クラウドボリュームがGoogle Cloudインスタンスに正常にマウントされました。
 
 

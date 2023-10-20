@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">これらの手順を実行するか、リンク先を参照して詳細を確認してください。</block>
-  <block id="04476610d425410da3c197a32de6a851" category="doc">Cloud Volumes Service for Google Cloud のクイックスタート</block>
-  <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">API を有効にする方法について説明します</block>
-  <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>。</block>
-  <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">サービスアカウントの設定方法について説明します</block>
-  <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>。</block>
-  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">作業環境の作成方法について説明します</block>
-  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>。</block>
   <block id="5876c30cdb96c38d4cc2497feffde111" category="summary">ボリュームごとに Snapshot ポリシーを作成して、ボリュームの内容全体を以前からリカバリまたはリストアできるようにすることができます。必要に応じて、クラウドボリュームのオンデマンド Snapshot を作成することもできます。</block>
   <block id="bf7d38473ac37a5a084d9d1f21a4002c" category="doc">クラウドボリュームの Snapshot を管理します</block>
   <block id="2530ad97c013f5d8d9c69004a4e7ee67" category="section-title">オンデマンドスナップショットを作成します</block>
@@ -56,10 +48,7 @@
   <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">クラウドボリュームをマウント</block>
   <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">に進みます <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>。</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="doc">Google Cloud をセットアップします</block>
-  <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">Cloud Volumes Service API を有効にします</block>
-  <block id="db680318754971180f12e167ae5f6325" category="paragraph">Google Cloud Shell で、次のコマンドを実行して Cloud Volumes Service API を有効にします。</block>
   <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph">`gcloud --project=&lt;my-cvs-project&gt; サービスは cloudvolumesgcp-api.netapp.com` を有効にします</block>
-  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">サービスアカウントを設定します</block>
   <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">新しいサービスアカウントを作成します</block>
   <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">新しいサービスアカウントメンバーをプロジェクトおよびに追加します IT 固有のロール（権限）の割り当て</block>
   <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">サービスアカウントのキーペアを作成してダウンロードします Google への認証に使用されます</block>
@@ -149,7 +138,6 @@
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">ボリュームを作成します</block>
   <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">Cloud Volumes Service または SMB ボリュームは、新規または既存の Google Cloud アカウントで作成できます。現在、クラウドボリュームは、 Linux クライアントと UNIX クライアントでは NFSv3 と NFSv4.1 、 Windows クライアントでは SMB 3.x をサポートしています。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">作業を開始する前に</block>
-  <block id="ce18c1db074bb9e5c1d0abfee30e098f" category="list-text">GCP で SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。</block>
   <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">SMB ボリュームを作成する場合は、接続可能な Windows Active Directory サーバが必要です。この情報は、ボリュームの作成時に入力します。また、管理者ユーザが指定された Organizational Unit （ OU ；組織単位）パスでマシンアカウントを作成できることを確認してください。</block>
   <block id="3a9d2e9f2ef6e95de617c14d2e4a4ef4" category="list-text">作業環境を選択し、 * 新しいボリュームの追加 * をクリックします。</block>
   <block id="a88cc7492eb95c6a27a508257cb9c7d3" category="list-text">詳細と場所ページで、ボリュームの詳細を入力します。</block>
@@ -213,13 +201,10 @@
   <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">SMB ボリュームのマウント手順</block>
   <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">インスタンスのマウント手順に従って、ネットワークドライブをマッピングします。</block>
-  <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">マウント手順の手順を完了すると、クラウドボリュームが GCP インスタンスに正常にマウントされます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">確認ダイアログボックスで、 * 削除 * をクリックします。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="5747722bb189495cdccebf12276e2ffd" category="doc">Cloud Volumes Service for Google Cloud の作業環境を作成します</block>
-  <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">Google Cloud Console からボリュームを作成済みかどうかに関係なく、 Cloud Volumes Service for Google Cloud にサインアップしてまだボリュームを持っていない場合は、最初に GCP サブスクリプションに基づいてボリュームの作業環境を作成します。</block>
-  <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">このサブスクリプション用のクラウドボリュームがすでに存在する場合、ボリュームは新しい作業環境に表示されます。GCP サブスクリプションにまだクラウドボリュームを追加していない場合は、新しい作業環境を作成した後で追加します。</block>
   <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">複数の Google Cloud プロジェクトにサブスクリプションとボリュームがある場合は、プロジェクトごとにこのタスクを実行する必要があります。</block>
   <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">各プロジェクトのサブスクリプションを追加する際は、次の情報を確認しておく必要があります。</block>
   <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">サービスアカウントのクレデンシャル（ダウンロードした JSON 秘密鍵）</block>
@@ -228,8 +213,6 @@
   <block id="5a341ba1dd9ba8680efd382c4f5778ad" category="list-text">使用する作業環境名を入力します。</block>
   <block id="56bab707c78784ba9b87a1e53b01fb02" category="list-text">前の手順でダウンロードした JSON 秘密鍵をコピーして貼り付けます。</block>
   <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">Google Cloud プロジェクトの名前を選択します。</block>
-  <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">Cloud Volumes Service for GCP サブスクリプションのクレデンシャルを追加するスクリーンショット。</block>
-  <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">Cloud Volumes Service for Google Cloud 作業環境のスクリーンショット。</block>
   <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1f2a018efc72b6fcf1f805684b3c31a" category="paragraph">このサブスクリプションにクラウドボリュームが存在しない場合は、ここで作成します。</block>
@@ -283,13 +266,9 @@
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">3つの点を持つアイコン。</block>
   <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">をクリックします <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> ボタンをクリックし、「 Cloud Volumes Service の削除」をクリックします。</block>
   <block id="b3153827b11df26704c2e383b3744bc7" category="paragraph">Cloud Volumes Service for Google CloudのリージョンまたはボリュームをBlueXPから検出する場合、料金は発生しません。</block>
-  <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXPでは、既存のCloud Volumes Service for GCPサブスクリプションとボリュームを検出できます。を参照してください<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 月額プランをまだ設定していない場合は、</block>
   <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">BlueXPでのCloud Volumes Service の動作に関する一般的な質問は'BlueXPチャットを使用してください</block>
   <block id="d51fa5f4ad125ac84151a2b270209fff" category="inline-link">ネットアップのBlueXP：『Cloud Volumes Service for Google Cloud』</block>
   <block id="e733ab7fe70716f6a8ac15ccc73cba45" category="list-text"><block ref="e733ab7fe70716f6a8ac15ccc73cba45" category="inline-link-rx"></block></block>
-  <block id="245601b4ea40e651b249dd4137f77c21" category="paragraph">Googleで、Cloud Volumes Service for GCP APIを有効にして、BlueXPでサブスクリプションとCloud Volume を管理できるようにします。</block>
-  <block id="b4db720a6f69a27aed45fbdd1ab4b6ed" category="paragraph">Googleで、サービスアカウントと役割を作成して、BlueXPがCloud Volumes Service for Google Cloudアカウントにアクセスできるようにします。</block>
-  <block id="6a122cba956a734449e67334e4204f2d" category="paragraph">BlueXPでは、[*作業環境の追加*&gt;*Google Cloud Cloud Volumes Service *]をクリックし、サービスアカウントとGoogle Cloudプロジェクトの詳細を入力します。</block>
   <block id="546e8223d9ca3eac26f1c4607fe857c4" category="summary">Cloud Volumes Service for Google Cloudサブスクリプションと既存のボリュームをすべてBlueXPから削除できます。ボリュームは削除されず、BlueXPインターフェイスから削除されたばかりです。</block>
   <block id="b85b36830c35b1e3b85c911b3cd549f3" category="doc">BlueXPからCloud Volumes Service を削除します</block>
   <block id="b14d1e068c8031b86314c9902472be25" category="admonition">Cloud Volumes Service for Google CloudサブスクリプションをBlueXPから削除することはできません。これは、 Google Cloud Console からのみ実行できます。</block>
@@ -358,11 +337,7 @@
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">次の手順</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1つ</block>
-  <block id="60c9d220e03340a34dceea57e2b0222f" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Cloud Volumes Service API を有効にします</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2 つ</block>
-  <block id="20ed45d1c1c6459f7df4f8fc85d64ba0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> GCP サービスアカウントを作成し、クレデンシャルをダウンロードします</block>
-  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">3つ</block>
-  <block id="f14277432a50a858ea51d3dbce562088" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> GCP 向け Cloud Volumes Service 作業環境を作成します</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
@@ -475,4 +450,26 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダのファイルサービスのサポート</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
+  <block id="900cacb5971edc5fdcfdb258d6dba1e4" category="paragraph">ボリュームをGoogle Cloudコンソールから作成しているかどうかに関係なく、Cloud Volumes Service for Google Cloudに登録したばかりでボリュームがない場合は、まずGoogle Cloudサブスクリプションに基づいてボリュームの作業環境を作成します。</block>
+  <block id="fa7b981545402e8580bddc3adf9cef7a" category="paragraph">このサブスクリプション用のクラウドボリュームがすでに存在する場合、ボリュームは新しい作業環境に表示されます。Google Cloudサブスクリプション用のクラウドボリュームをまだ追加していない場合は、新しい作業環境の作成後に追加します。</block>
+  <block id="c99f684b010bc8f7b4fa8ee549806a49" category="inline-image-macro">Cloud Volumes Service for Google Cloudサブスクリプションのクレデンシャルを追加するスクリーンショット。</block>
+  <block id="8ee75aba94ba04e51fe54e738c576517" category="paragraph"><block ref="8ee75aba94ba04e51fe54e738c576517" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fa4b509618baa240e76ba2859660da3" category="paragraph">BlueXPでは、Cloud Volumes Service for Google Cloudの既存のサブスクリプションとボリュームを検出できます。を参照してください<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 月額プランをまだ設定していない場合は、</block>
+  <block id="7db3ae7aa1d24eb06d62c0cb0ed678ae" category="list-text">Google CloudでSMBを使用する場合は、DNSとActive Directoryをセットアップしておく必要があります。</block>
+  <block id="089ded181f5256b29409c1eafafd51b9" category="paragraph">マウント手順の手順を完了すると、クラウドボリュームがGoogle Cloudインスタンスに正常にマウントされました。</block>
+  <block id="6b0fb7c0d2cfa8f64fcb6049f7b1fcc7" category="summary">Cloud Volumes ONTAP for Google Cloudの利用を開始するには、Google Cloudをセットアップし、作業環境を作成します。</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">スタートアップワークフロー</block>
+  <block id="3e78595d1d3ae86258a7b0046782656b" category="paragraph">Cloud Volumes Service for Google Cloudの利用を開始するには、Google Cloudをセットアップし、作業環境を作成します。</block>
+  <block id="28eda352be26509e42dcdad8ea712b08" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1a521c21359bc598920e036b48976b8b" category="inline-link-macro-rx"></block></block>
+  <block id="3cbe6a41e088877beb0fdc0f033c9db7" category="paragraph">Googleから、Cloud Volumes Service APIを有効にしてサービスアカウントを作成します。</block>
+  <block id="333d97983b982d95aa66476af120900b" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="17f92a667c153c4b71522d9f7388a1be" category="inline-link-macro-rx"></block></block>
+  <block id="e6892525cc09832738d2159589a818d6" category="paragraph">BlueXPで、*[作業環境の追加]*&gt;* Google Cloud *&gt;* Cloud Volumes Service *をクリックし、サービスアカウントとGoogle Cloudプロジェクトの詳細を入力します。</block>
+  <block id="2c5e9cc90fb536b4aa1861bd954ecd97" category="section-title">手順1：Cloud Volumes Service APIを有効にする</block>
+  <block id="1c5b39013ed220fe7410c674acea6cb3" category="paragraph">Cloud Volumes Service APIを有効にして、サブスクリプションボリュームとクラウドボリュームをBlueXPで管理できるようにします。</block>
+  <block id="62fe79c8badc2a334d45a4c907747183" category="list-text">Google CloudからCloud Shellセッションを起動します。</block>
+  <block id="f7b252cf92cffa8bd8dccbbfdc5bf153" category="inline-link">Google Cloudのドキュメント：「Launch Cloud Shell」</block>
+  <block id="774582c0b01eadfb3f8f0775e15a5220" category="paragraph"><block ref="774582c0b01eadfb3f8f0775e15a5220" category="inline-link-rx"></block></block>
+  <block id="7d4858380df2c179560798250655ff74" category="list-text">次のコマンドを実行して、Cloud Volumes Service APIを有効にします。</block>
+  <block id="9bbd421955a8eed4c188692bb2a2a4ea" category="section-title">手順2：サービスアカウントを設定する</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
 </blocks>
