@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, set up cloud volumes service 
-summary: Cloud Volumes ONTAP for Google Cloudの利用を開始するには、Google Cloudをセットアップし、作業環境を作成します。 
+summary: Cloud Volumes Service for Google Cloudの利用を開始するには、Google Cloudをセットアップし、作業環境を作成します。 
 ---
 = スタートアップワークフロー
 :hardbreaks:
