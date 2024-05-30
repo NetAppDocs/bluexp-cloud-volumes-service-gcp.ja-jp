@@ -47,28 +47,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法的通知
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: はじめに
-    links:
-    - title: Cloud Volumes Service for Google Cloud の詳細をご覧ください
-      url: concept-cvs-gcp.html
-    - title: クイックスタート
-      url: task-quick-start.html
-  - title: Cloud Volumes Service を使用します
-    links:
-    - title: ボリュームを作成します
-      url: task-create-volumes.html
-    - title: クラウドボリュームの Snapshot を管理します
-      url: task-manage-snapshots.html
-  - title: ブログコミュニティ
-    links:
-    - title: ネットアップコミュニティ
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXPブログ
-      url: https://cloud.netapp.com/blog
-    - title: クラウドに関する Web セミナー
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
