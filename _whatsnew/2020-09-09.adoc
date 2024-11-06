@@ -1,0 +1,15 @@
+= Cloud Volumes Service for Google Cloud のサポート
+:allow-uri-read: 
+
+
+
+
+=== Cloud Volumes Service for Google Cloud のサポート
+
+Cloud Volumes Service for Google CloudをBlueXPから直接管理できるようになりました。
+
+* 作業環境をセットアップして作成
+* Linux クライアントおよび UNIX クライアント用に、 NFSv3 ボリュームと NFSv4.1 ボリュームを作成および管理します
+* Windows クライアント用に SMB 3.x ボリュームを作成して管理します
+* ボリューム Snapshot を作成、削除、およびリストアします
+
